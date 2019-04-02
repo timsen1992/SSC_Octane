@@ -10,9 +10,6 @@ public class EightBall {
 			System.out.println("Invalid input.");
 		}
 		new FileReader(filename).read(buffer);
-		System.out.println(buffer);
+		//System.out.println(buffer);
 	}
-	
-	//I Added a few lines!!
-	
 }
