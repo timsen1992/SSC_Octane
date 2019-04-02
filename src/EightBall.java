@@ -13,5 +13,6 @@ public class EightBall {
 		System.out.println(buffer);
 		System.out.println(buffer); //oups, I added another output line
 		System.out.println(buffer); //aaaand another one
+		System.out.println(buffer); //another another another
 	}
 }
