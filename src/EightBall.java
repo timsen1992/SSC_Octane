@@ -11,7 +11,7 @@ public class EightBall {
 		}
 		new FileReader(filename).read(buffer);
 		System.out.println(buffer);
-//removed a line here
+		System.out.println(buffer);//added
 		System.out.println(buffer); //Here was a change for Defect #24003 
 	}
 }
