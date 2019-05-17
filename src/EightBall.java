@@ -16,6 +16,9 @@ public class EightBall {
 		int out = fr.read(buffer);
 		System.out.println(buffer);
 		System.out.println(out);
-		System.out.println(buffer); // I did some useless change here
+		System.out.println(buffer); 
+		
+		//this is a new line
+		
 	}
 }
