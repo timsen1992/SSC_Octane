@@ -12,14 +12,15 @@ public class EightBall {
 		if(filename.contains("..\\")) {
 			filename = filename.replace("..\\", "");
 		}
-		FileReader fr = new FileReader(filename);
+		/*
+		 * FileReader fr = new FileReader(filename);
 		int out = fr.read(buffer);
 		System.out.println(buffer);
 		System.out.println(out);
 		System.out.println(out);
 		
 		System.out.println(buffer); 
-		
+		*/
 		//this is a new line
 		
 	}
