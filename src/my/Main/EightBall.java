@@ -31,5 +31,13 @@ public class EightBall {
 		System.out.println(buffer);
 		System.out.println(buffer);
 		System.out.println(buffer);
+		
+		System.out.println(buffer);
+		System.out.println(buffer);
+		System.out.println(buffer);
+		
+		System.out.println(buffer);
+		System.out.println(buffer);
+		System.out.println(buffer);
 	}
 }
