@@ -20,8 +20,12 @@ public class EightBall {
 		int out = fr.read(buffer);
 		System.out.println(buffer);
 		
-		FileReader fr = new FileReader(filename);
-		int out = fr.read(buffer);
+		FileReader fra = new FileReader(filename);
+		int outa = fra.read(buffer);
+		System.out.println(buffer);
+		
+		FileReader frb = new FileReader(filename);
+		int outb = frb.read(buffer);
 		System.out.println(buffer);
 	}
 }
