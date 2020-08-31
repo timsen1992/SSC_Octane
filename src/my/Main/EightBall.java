@@ -35,5 +35,9 @@ public class EightBall {
 		FileReader frd = new FileReader(filename);
 		int outd = frd.read(buffer);
 		System.out.println(buffer);
+		
+		FileReader fre = new FileReader(filename);
+		int oute = fre.read(buffer);
+		System.out.println(buffer);
 	}
 }
