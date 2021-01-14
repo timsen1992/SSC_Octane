@@ -17,4 +17,18 @@ steps:
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
+- task: FortifySCA@7
+  inputs:
+    licenseFile: 'fortify.license'
+    runBuildTranslate: true
+    applicationType: 'java'
+    buildSourcePath: '/src/my/Main/'
+    fortifySourceTranslate: 'EightBall.java'
+    fortifyBuildId: 'eightball'
+    runFortifyRulepackUpdate: false
+    runFortifyClean: true
+    scaVerbose: false
+    scaDebug: false
+    runFortifyScan: true
+    fortifyScanType: 'Local'
     testResultsFiles: '**/TEST-*.xml'
