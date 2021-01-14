@@ -22,8 +22,8 @@ steps:
     licenseFile: 'C:\Util\agent\fortify.license'
     runBuildTranslate: true
     applicationType: 'java'
-    buildSourcePath: '/src/my/Main/'
-    fortifySourceTranslate: 'EightBall.java'
+    buildSourcePath: ''
+    fortifySourceTranslate: 'src\my\Main\EightBall.java'
     fortifyBuildId: 'eightball'
     runFortifyRulepackUpdate: false
     runFortifyClean: true
