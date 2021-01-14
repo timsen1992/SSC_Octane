@@ -31,4 +31,3 @@ steps:
     scaDebug: false
     runFortifyScan: true
     fortifyScanType: 'Local'
-    testResultsFiles: '**/TEST-*.xml'
