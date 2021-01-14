@@ -6,6 +6,12 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'ubuntu-latest'
+pool: Webinspect
 
+steps:
+
+- task: FortifyDynamicAssessment@7
+  inputs:
+    ScanSettings: 'C:\Util\wi.xml'
+    APIRoot: 'http://localhost:8083/'
+    ScanResultsLocation: 'C:\Util\Azure\'
