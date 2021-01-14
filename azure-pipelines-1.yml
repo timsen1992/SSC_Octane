@@ -30,4 +30,4 @@ steps:
     scaVerbose: false
     scaDebug: false
     runFortifyScan: true
-    fortifyScanType: 'Local'
+    fortifyScanType: 'LocalScan'
