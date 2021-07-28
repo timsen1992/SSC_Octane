@@ -16,6 +16,7 @@ public class EightBall {
 			filename = filename.replace("..\\", "");
 		}
 		
+		/*
 		FileReader fr = new FileReader(filename);
 		int out = fr.read(buffer);
 		System.out.println(buffer);
@@ -43,5 +44,7 @@ public class EightBall {
 		FileReader frf = new FileReader(filename);
 		int outf = frf.read(buffer);
 		System.out.println(buffer);
+
+		 */
 	}
 }
